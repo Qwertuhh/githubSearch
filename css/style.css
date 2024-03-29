@@ -1,0 +1,97 @@
+:root{
+    --card:rgb(220, 220, 228);
+}
+*{
+    background: rgb(21, 21, 99);
+}
+.col-sm{
+    margin: auto;
+    width: 90%;
+    padding: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+#user{
+    background: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 4px;
+    height: 20px;
+    border:none;
+}
+input.middle:focus {
+    outline:invert;
+}
+
+#user:focus{
+    border:none;
+    outline: none;
+}
+#searchBox{
+    margin: auto;
+    width: 50%;
+    padding: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#btn{
+    background: rgb(158, 21, 21);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 4px;
+    height: 30px;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+    margin-left: 5px;
+    background: var(--card);
+}
+.footer{
+    display: flex;
+    background: var(--card);
+    border-radius: 10px;
+    justify-content: flex-start;
+    align-content: stretch;
+    flex-direction: row;
+    align-items: center;
+}
+.msg{
+    background: rgba(245, 245, 245, 0.608);
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 500px;
+    position: relative;
+}
+.icon{
+    border-radius: 100%;
+    padding: 1px;
+    margin: 5px;
+    height: 20px;
+    width: 20px;
+}
+.card{
+    height: 20rem;
+    width:15rem;
+    padding: 1em;
+    margin:20px;
+    background: rgba(242, 242, 246, 0.316);
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.card:hover{
+    padding: 0.2em;
+}
+img{
+    border-radius: 10px;
+    width:100%;
+    background-image: cover;
+    size: auto;
+}
